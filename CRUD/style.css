@@ -1,0 +1,22 @@
+.no-outline {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: none;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.bg-biru {
+  background-color: #435165;
+}
+
+.container .btn {
+  margin-top: 40px;
+}
+
+.section {
+  margin-top: 40px;
+}

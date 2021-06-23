@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+.section {
+  border-left: 3px solid #ff0000;
+  margin-top: 20px;
+  padding-left: 6px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Tombol To Top */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #ff0000;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0px 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #888888;
+}
+.sm-up {
+  display: block;
+  font-size: 30px;
+  line-height: 40px;
+  padding-bottom: 2px;
+  text-align: center;
+}
